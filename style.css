@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+*{
+	margin: 0;
+	padding: 0;
+}
+.body-1{
+	background-color: #000;
+}
+.header-1{
+	background: url("assets/ft-header.jpg") no-repeat center;
+	background-size: 100%;
+	width: 100%;
+	height: 60vh;
+}
+.img-1{
+	width: 150px;
+	height: 150px;
+	position: absolute;
+	top: 60px;
+	left: 100px;
+}
+.nav-1{
+	font-size: 30px;
+	position: absolute;
+	top: 60px;
+	left: 650px;
+	font-style: #000;
+}
+.nav-item{
+	background-color: rgba(255, 255, 255, 0.70);
+	padding: 4px 20px 10px 20px	;
+	border-radius: 25px;
+	text-decoration: none;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	color: #000;
+
+}
+.section-1{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	position: relative;
+}
+.quadrado{
+	border: solid 3px #fff;
+	height: 90vh;
+	width: 50%;
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-end;
+	position: absolute;
+	top: 60px;
+}
+.mais-fotos{
+	text-decoration: none;
+	font-size: 30px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	color: #fff;
+	margin: 0 15px 10px 0;
+}
+.span-1{
+	font-size: 16px;
+}
+.fotografias{
+	color: #fff;
+	font-size: 40px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	width: 70%;
+	text-align: center;
+	margin: 80px 0 10px 0;
+
+}
+.imagem-1{
+	width: 620px;
+	height: 820px;
+	margin: 0px 5px 0 10px;
+	 
+}
+.imagens{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+}
+.imagens-item1{
+	width: 620px;
+	height: 400px;
+	margin: 0 10px 10px 10px;
+}
+.imagens-item2{
+	width: 620px;
+	height: 400px;
+	margin:10px 10px 0 10px;
+}
+.a-1{
+	display: none;
+}
+.rodape{
+	background: url("fotos/foto02.jpg") no-repeat center -190px;
+	background-size: cover;
+	width: 100%;
+	height: 35vh;
+	margin: 40px 0 0 0;
+	display: flex;
+	flex-wrap: wrap;
+}
+.titulo-1{
+	color: #fff;
+	width: 55%;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	margin: 20px 0 0 30px;
+}
+.container-final{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-self: flex-end;
+	width: 100%;
+	height: 8vh;
+	background-color: rgba(255, 255, 255, 0.70);
+}
+.p-1{
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	align-self: center;
+	color: #000;
+
+}
+.span-2{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+}
