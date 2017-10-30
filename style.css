@@ -133,10 +133,10 @@
 .containerContato{
 	display: flex;
 	background-color: rgba(170, 0, 0, 0.90);
+	min-height: 35vh;
 }
 .main_contact_endereco{
 	width: 100%;
-	height: 35vh;
 	display:flex;
 	top: 60px;
 	left: 100px;
@@ -147,10 +147,12 @@
 }
 .main_contact_formulario{
 	width: 100%;
-	height: 35vh;
 	display: flex;
 	flex-wrap: wrap;
 	flex-direction: column;
 	color: white;
 	background-color: rgba(170, 0, 0, 0.90);
+}
+textarea{
+	height: 200px;
 }
