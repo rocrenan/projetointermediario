@@ -1,3 +1,8 @@
+
+	/*		INDEX		*/
+
+
+
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
 *{
 	margin: 0;
@@ -12,21 +17,21 @@
 	width: 100%;
 	height: 60vh;
 }
-.img-1{
-	width: 150px;
-	height: 150px;
+.header-logo{
+	width: 10%;
+	height: 18vh;
 	position: absolute;
-	top: 60px;
-	left: 100px;
+	top: 110px;
+	left: 170px;
 }
-.nav-1{
+.menu{
 	font-size: 30px;
 	position: absolute;
-	top: 60px;
-	left: 650px;
+	top: 80px;
+	left: 950px;
 	font-style: #000;
 }
-.nav-item{
+.menu-item{
 	background-color: rgba(255, 255, 255, 0.70);
 	padding: 4px 20px 10px 20px	;
 	border-radius: 25px;
@@ -36,7 +41,7 @@
 	color: #000;
 
 }
-.section-1{
+.centro{
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
@@ -60,10 +65,10 @@
 	color: #fff;
 	margin: 0 15px 10px 0;
 }
-.span-1{
+.span-reticencias{
 	font-size: 16px;
 }
-.fotografias{
+.titulo-fotografias{
 	color: #fff;
 	font-size: 40px;
 	font-family: 'Open Sans', sans-serif;
@@ -73,28 +78,31 @@
 	margin: 80px 0 10px 0;
 
 }
-.imagem-1{
+.imagem-maior{
 	width: 48%;
 	/*height: 820px;*/
-	margin: 0px 5px 0 10px;
+	margin: 0px 25px 0 0px;
 	 
 }
-.imagens{
+.imagens-juntas{
 	width: 48%;
 	display: flex;
 	flex-wrap: wrap;
 	flex-direction: column;
 }
-.imagens-item1,
+.imagens-item1{
+	width: 100%;
+	margin: 0 0px 10px 0px;
+}
 .imagens-item2{
 	width:100%;
-	margin:10px 10px 0 10px;
+	margin:10px 10px 0 0px;
 }
-.a-1{
+.mais-fotos2{
 	display: none;
 }
 .rodape{
-	background: url("fotos/foto02.jpg") no-repeat center -190px;
+	background: url("fotos/foto02.jpg") no-repeat center -270px;
 	background-size: cover;
 	width: 100%;
 	height: 35vh;
@@ -104,7 +112,7 @@
 }
 .titulo-1{
 	color: #fff;
-	width: 55%;
+	width: 45%;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 700;
 	margin: 20px 0 0 30px;
@@ -118,7 +126,7 @@
 	height: 8vh;
 	background-color: rgba(255, 255, 255, 0.70);
 }
-.p-1{
+.powered-1{
 	color: #fff;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 400;
@@ -130,6 +138,17 @@
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 700;
 }
+
+
+
+
+
+	/*		Contato		*/	
+
+
+
+
+
 .containerContato{
 	display: flex;
 	background-color: rgba(170, 0, 0, 0.90);
