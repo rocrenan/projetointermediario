@@ -117,6 +117,24 @@
 	font-weight: 700;
 	margin: 20px 0 0 30px;
 }
+.redes-sociais{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: flex-end;
+	width: 340px;
+	height: 200px;
+	position: absolute;
+	right: 0;
+}
+.redes-icon{
+
+}
+.redes-img{
+	width: 60px;
+	height: 60px;
+	margin: 5px;
+}
 .container-final{
 	display: flex;
 	justify-content: center;
@@ -174,4 +192,18 @@
 }
 textarea{
 	height: 200px;
+}
+.rodape-1{
+	display: flex;
+	width: 100%;
+	justify-content: center;
+}
+.powered-2{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	color: #fff;
+}
+.span-3{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
 }
